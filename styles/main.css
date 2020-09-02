@@ -1,14 +1,36 @@
-h1{
-font-size: 25px;
+
+#header{
+font-size: 200%;
+padding-left:5%;
 font-family: 'Roboto', sans-serif;
 }
-
-.banner{
- color:black;
+h1{
+    font-size:30px;
 }
 
-#site-description{
-    color:grey;
-    
+p{
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+
 }
 
+.site-description{
+color:grey;
+}
+
+
+#main-content{
+padding-left:5%;
+}
+
+h2{font-family: 'Roboto', sans-serif;}
+
+#footer{
+
+}
+
+a{font-family: 'Roboto', sans-serif;}
+
+#side-bar{
+
+}

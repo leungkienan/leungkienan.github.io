@@ -1,10 +1,12 @@
 
 
 body{
+    background-color: beige;
 }
 #header{
 font-size: 200%;
 font-family: 'Roboto', sans-serif;
+background-color:white;
 }
 
 #home-title{padding:0 60px;}
@@ -14,6 +16,8 @@ h1{
     font-family: 'Roboto', sans-serif;
 }
 
+h2{font-size: 20px;}
+
 p{
     font-size: 15px;
     font-family: 'Roboto', sans-serif;
@@ -22,12 +26,17 @@ p{
 .main-content{
 padding-left:5%;
 margin: 0% 20% 30% 20%;
+background-color: white;
+border-radius:20px;
 }
 
 h2{font-family: 'Roboto', sans-serif;}
 
-#footer{padding-left:5%;
+#footer{
+    padding-left:5%;
     margin: 0% 20% 30% 20%;
+    background-color:white;
+    border-radius: 20px;
 }
 
 a{font-family: 'Roboto', sans-serif;}

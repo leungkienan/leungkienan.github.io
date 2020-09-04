@@ -11,6 +11,7 @@ font-family: 'Roboto', sans-serif;
 
 h1{
     font-size:30px;
+    font-family: 'Roboto', sans-serif;
 }
 
 p{
@@ -18,7 +19,7 @@ p{
     font-family: 'Roboto', sans-serif;
 }
 
-#main-content{
+.main-content{
 padding-left:5%;
 margin: 0% 20% 30% 20%;
 }

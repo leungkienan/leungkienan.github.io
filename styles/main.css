@@ -6,10 +6,18 @@ body{
 #header{
 font-size: 200%;
 font-family: 'Roboto', sans-serif;
-background-color:white;
+background-color: #9c0000;
+margin: 0% 0% 2% 0%;
+padding: 1% 5% 1% 5%;
+}
+img{
+    width:3%;
+    height:auto;
+    margin-left:auto;
+    display: block;
 }
 
-#home-title{padding:0 60px;}
+#home-title{padding:0 60px; color:white;}
 
 h1{
     font-size:30px;
@@ -26,6 +34,7 @@ p{
 .main-content{
 padding-left:5%;
 margin: 0% 20% 30% 20%;
+padding: 1% 5% 1% 5%;
 background-color: white;
 border-radius:20px;
 }
@@ -33,13 +42,26 @@ border-radius:20px;
 h2{font-family: 'Roboto', sans-serif;}
 
 #links{
-    padding-left:5%;
-    margin: 0% 20% 2% 20%;
-    background-color:white;
-    border-radius: 20px;
+    padding: 1% 5% 1% 5%;
+    margin-top:-2%;
+    margin-bottom:2%;
+    background-color: white;
+    width:100%;
+    height:auto;
+    text-align:center;
 }
 
-a{font-family: 'Roboto', sans-serif;}
+
+
+a{
+    font-family: 'Roboto', sans-serif;
+    margin-right:15px;
+}
+
+.linktext{
+    color:black;
+    font-weight:bold;
+}
 
 #side-bar{
 

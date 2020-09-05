@@ -32,9 +32,9 @@ border-radius:20px;
 
 h2{font-family: 'Roboto', sans-serif;}
 
-#footer{
+#links{
     padding-left:5%;
-    margin: 0% 20% 30% 20%;
+    margin: 0% 20% 2% 20%;
     background-color:white;
     border-radius: 20px;
 }

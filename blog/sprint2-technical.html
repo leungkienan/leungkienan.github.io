@@ -49,42 +49,86 @@
     </div>
 
     <!-- Topic: What are the best practices associated with using classes vs. ids?-->
-    <div class="main-content">
-      <h2>What are the best practices associated with using classes vs ids?</h2>
-      <p>
-        A Class is used to identify more than one element. These are annotated
-        with a '.' in the css document.
-      </p>
-      <img class="imgmain" src="../images/class.png" />
-      <p>
-        An ID is used to identify a single element. These are annotated as a '#'
-        in your css document.
-      </p>
-      <img class="imgmain" src="../images/id.png" />
-      <br />
-      <p>
-        We want to use classes when you want to style many elements on the page.
-        So if you know you will use this element with the same style, we will
-        tag the element with the class tag. For example, one would use a class
-        to style different elements names like comments, toolbars, or even
-        icons.
-      </p>
-      <p>
-        An easy way to think about classes is that these are a way to classify a
-        group of items. For example, we would call an apples and bananas fruit,
-        so the class of these two things to be 'fruit'.
-      </p>
-      <br />
-      <p>
-        On the other hand, ID's are specifically used for only one element, so
-        we should use ID for elements that will have unique characteristics. An
-        example of an ID being used would be for headers, footers or similar
-        elements on the webpage.
-      </p>
-      <p>
-        We can think of ID's as a way to uniquely attribute something. So you
-        would have your own unique phone number and credit card number.
-      </p>
+    <div id="main-content">
+      <h2 class="h2Heading">Classes vs ID's</h2>
+
+      <div class="boxCascade">
+        <div class="box">
+          <h2>What is a Class?</h2>
+          <p>
+            Classes are used to identify multiple elements. These are notated
+            with a "." as seen below
+          </p>
+          <img class="imgmain" src="../images/class.png" />
+          <h2>When and why do we use classes?</h2>
+          <p>
+            We want to use classes when you want to style many elements on the
+            page. So if you know you will use this element with the same style,
+            we will tag the element with the class tag. Classes are also great
+            for giving a group of elements specific attributes, so we can have
+            headers that have the same features, but some may have different
+            colours or different font styles. One would use a class to style
+            elements that they want consistent across their code, so things like
+            multiple text-boxes on a page may have the same attributes like
+            colour, sizing or borders, etc.
+          </p>
+          <h2>How do we use classes?</h2>
+          <p>
+            Firstly, in our HTML document, we initialise the class by giving a
+            div element the tag.
+          </p>
+          <img class="imgmain" src="../images/classExample2.png" />
+          <p>So the class in the img element is now a "logo"</p>
+          <p>
+            Then we can look at our css file and intialise the class with a
+            period, followed by the logo class name.
+          </p>
+          <p>
+            So I want the reference links to be classed as "linktext", so these
+            specific links will share a class with whatever elements I notate in
+            the css file.
+          </p>
+          <img class="imgmain" src="../images/classExample3.png" />
+          <p>
+            Here, I want the text to be white, bolded and have a font-size of 20
+            pixels for elements that are within the class which you can see
+            above.
+          </p>
+
+          <h2>Summary</h2>
+          <p>
+            Classes give you plenty of freedom to style and manipulate many
+            elements in your code, so we can give elements in our html file some
+            flair and unique styling.
+          </p>
+        </div>
+
+        <div class="box">
+          <h2>What is an ID?</h2>
+          <p>
+            An ID is used to identify a single element. These are annotated as a
+            '#'
+          </p>
+          <img class="imgmain" src="../images/id.png" />
+          <h2>When and why do we use ID's?</h2>
+          <p>
+            ID's are specifically used for only one element, so we should use ID
+            for elements that have only one instance of itself per page. So we
+            won't create multiple objects with an ID tag, as these will clash
+            with each other once we dip into JavaScript.
+          </p>
+          <img class="imgmain" src="../images/maincontentexample.png" />
+          <p>
+            For instance, if we opened up my page's elements in the browser, I
+            have the main content of the page to be classified as an ID
+            (highlighted green), as I want this element to remain consistent
+            across all of my pages.
+          </p>
+          <p>
+            
+          </p>
+        </div>
+      </div>
     </div>
   </body>
 </html>

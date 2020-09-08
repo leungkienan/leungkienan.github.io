@@ -51,9 +51,33 @@
     <!-- Topic: What are the best practices associated with using classes vs. ids?-->
     <div id="main-content">
       <h2 class="h2Heading">Classes vs ID's</h2>
-
+      <h2>Simple Idea of Classes vs IDs</h2>
+      <p>
+        Think of 3 plain, empty, brown parcel boxes . These boxes are setup
+        through a class tag which share the same attributes. That being brown
+        and a cube shape.
+      </p>
+      <p>Our boxes would be setup so that class = box</p>
+      <p>
+        Lets say we use one of these boxes to ship a teddy bear to your
+        favourite cousin, so we grab one of these boxes and put a teddy bear in
+        it.
+      </p>
+      <p>
+        We can now identify that there are still 3 boxes, but one has its own
+        special traits to it: a teddy bear.
+      </p>
+      <p>So we would annotate the box to have the id = teddy-bear and class = box.</p>
+      <p>
+        This is one way of using ID's. We have an element that may share
+        attributes within a class, but we use an ID tag to give that specific
+        element some characteristics that make it different from the other
+        elements.
+      </p>
+      
       <div class="boxCascade">
         <div class="box">
+          <!-- CLASSES -->
           <h2>What is a Class?</h2>
           <p>
             Classes are used to identify multiple elements. These are notated
@@ -94,15 +118,9 @@
             pixels for elements that are within the class which you can see
             above.
           </p>
-
-          <h2>Summary</h2>
-          <p>
-            Classes give you plenty of freedom to style and manipulate many
-            elements in your code, so we can give elements in our html file some
-            flair and unique styling.
-          </p>
         </div>
 
+        <!-- ID Box -->
         <div class="box">
           <h2>What is an ID?</h2>
           <p>
@@ -124,11 +142,26 @@
             (highlighted green), as I want this element to remain consistent
             across all of my pages.
           </p>
+          <h2>How an ID is used</h2>
           <p>
-            
+            We first start by tagging an html element with the id tag as seen
+            below.
+          </p>
+          <img class="imgmain" src="../images/idExample2.png" />
+          <p>
+            I called this div "main-content", which will be used as the area for
+            where my content is shown on the webpage
+          </p>
+          <img class="imgmain" src="../images/idExample3.png" />
+          <p>
+            The id here is tagged with a "#", so the id links back to the html.
+            This styling will only apply to the div I tagged as main-content
           </p>
         </div>
       </div>
+
+
+
     </div>
   </body>
 </html>

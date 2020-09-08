@@ -20,12 +20,21 @@ img {
   float: left;
 }
 
+.imgSmall{
+    width: 50%;
+    height:auto;
+    margin-bottom: 5%;
+    border: 3px solid;
+
+    border-radius: 10px;
+}
+
 .imgmain {
   width: 100%;
   height: auto;
   margin-bottom: 5%;
   border: 3px solid;
-  border-color:  #9c0000;
+
   border-radius: 10px;
 }
 

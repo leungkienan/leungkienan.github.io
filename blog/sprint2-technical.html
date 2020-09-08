@@ -1,83 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
-      crossorigin="anonymous"
-    />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
 
     <link href="../styles/main.css" rel="stylesheet" type="text/css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet" />
     <title>Sprint 2 - Classes vs ID</title>
-  </head>
-  <body>
-    <div id="header">
-      <img
-        class="logo"
-        src="/leungkienan.github.io/images/kl small logo v3.png"
-      />
-      <h1 id="home-title">Kienan's Blog</h1>
+</head>
 
-      <a
-        class="linktext"
-        href="/leungkienan.github.io/blog/sprint2-cultural.html"
-        >Sprint 2 Cultural</a
-      >
-      <a
-        class="linktext"
-        href="/leungkienan.github.io/blog/sprint1-cultural.html"
-        >Sprint 1 Cultural</a
-      >
-      <a
-        class="linktext"
-        href="/leungkienan.github.io/blog/sprint2-technical.html"
-        >Sprint 2 Technical</a
-      >
-      <a
-        class="linktext"
-        href="/leungkienan.github.io/blog/sprint1-technical.html"
-        >Sprint 1 Technical</a
-      >
-      <a class="linktext" href="../index.html">Home</a>
+<body>
+    <div id="header">
+        <img class="logo" src="/leungkienan.github.io/images/kl small logo v3.png" />
+        <h1 id="home-title">Kienan's Blog</h1>
+
+        <a class="linktext" href="/leungkienan.github.io/blog/sprint2-cultural.html">Sprint 2 Cultural</a>
+        <a class="linktext" href="/leungkienan.github.io/blog/sprint1-cultural.html">Sprint 1 Cultural</a>
+        <a class="linktext" href="/leungkienan.github.io/blog/sprint2-technical.html">Sprint 2 Technical</a>
+        <a class="linktext" href="/leungkienan.github.io/blog/sprint1-technical.html">Sprint 1 Technical</a>
+        <a class="linktext" href="../index.html">Home</a>
     </div>
 
     <!-- Topic: What are the best practices associated with using classes vs. ids?-->
     <div id="main-content">
-      <h2 class="h2Heading">Classes vs ID's</h2>
-      <h2>Simple Idea of Classes vs IDs</h2>
-      <p>
-        Think of 3 plain, empty, brown parcel boxes . These boxes are setup
-        through a class tag which share the same attributes. That being brown
-        and a cube shape.
-      </p>
-      <p>Our boxes would be setup so that class = box</p>
-      <p>
-        Lets say we use one of these boxes to ship a teddy bear to your
-        favourite cousin, so we grab one of these boxes and put a teddy bear in
-        it.
-      </p>
-      <p>
-        We can now identify that there are still 3 boxes, but one has its own
-        special traits to it: a teddy bear.
-      </p>
-      <p>So we would annotate the box to have the id = teddy-bear and class = box.</p>
-      <p>
-        This is one way of using ID's. We have an element that may share
-        attributes within a class, but we use an ID tag to give that specific
-        element some characteristics that make it different from the other
-        elements.
-      </p>
-      
+        <h2 class="h2Heading">Classes vs ID's</h2>
+        <h2>Best Practices for Classes and IDs</h2>
+        <p>
+            Think of a storage warehouse, full of different boxes with varying
+            contents inside. With that in mind, we can assign the warehouse with an id
+            element
+        </p>
+        <p>So our warehouse could be setup so that id = warehouse-storage</p>
+        <p>
+            We know that there are boxes inside the warehouse, so we can tag these
+            as a class element
+        </p>
+        <p>class = box</p>
+        <p>If we were to make a div with these elements, it would look like the following:</p>
+        <img class="imgSmall" src="../images/classIdExample1.png" />
+        <p>
+            We can see that there is a warehouse with the id "warehouse-storage" setup, with a box with the class "box"
+            setup.
+        </p>
+        <h2>Why do we use different tags?</h2>
+        <p>The warehouse has its own specific ID that we can identify, which has its own unique aspects to it.
+            So if we wanted to do something to the warehouse, like expand it or knock down a wall,
+            we can locate which specific warehouse we want to modify and make specific changes for that warehouse.
+        </p>
+        <p>So with an ID, we can target unique elements and give them special functions or styles.</p>
+
+        <p>Classes do not share this restriction, as we can have multiple elements which share the same attributes and characteristics with one another. So our boxes can have the same properties, such as size and shape. </p>
+        <p>Unlike IDs, an element can have multiple classes to distinguish one another. So back to our box analogy, we can have a bunch of boxes with televisions in them, so we can give them a "tv" class to categorise them.</p>
+        
+
+
+
+
+        <!--
       <div class="boxCascade">
         <div class="box">
-          <!-- CLASSES -->
+           CLASSES 
           <h2>What is a Class?</h2>
           <p>
             Classes are used to identify multiple elements. These are notated
@@ -120,7 +105,7 @@
           </p>
         </div>
 
-        <!-- ID Box -->
+         ID Box 
         <div class="box">
           <h2>What is an ID?</h2>
           <p>
@@ -158,10 +143,9 @@
             This styling will only apply to the div I tagged as main-content
           </p>
         </div>
-      </div>
-
-
-
+    -->
     </div>
-  </body>
+    </div>
+</body>
+
 </html>

@@ -11,11 +11,9 @@ body {
   z-index: 999;
 }
 
-img {
-}
 
 .logo {
-  width: 50px;
+  width: 250px;
   height: auto;
   float: left;
 }
@@ -105,5 +103,10 @@ a {
   font-weight: bold;
   font-size: 20px;
   float: right;
+}
+
+li{
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
 }
 

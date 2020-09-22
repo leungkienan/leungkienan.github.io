@@ -1,7 +1,7 @@
 body {
   background-color: white;
 }
-#header {
+#header {   /* ID */
   background-color: #9c0000;
   padding: 1% 5% 1% 5%;
   margin: 0 0 20px 0;
@@ -50,8 +50,10 @@ h1 {
 h2 {
   font-size: 20px;
   font-weight:bold;
+  font-family: "Roboto", sans-serif;
+  color: black;
 }
-.h2Heading{
+.h2Heading{ /*class */
     font-size:30px;
 }
 
@@ -76,10 +78,6 @@ p {
     height:auto;
 }
 
-h2 {
-  font-family: "Roboto", sans-serif;
-  color: black;
-}
 
 /*#links{
     padding: 1% 5% 1% 5%;
@@ -95,14 +93,17 @@ h2 {
 
 a {
   font-family: "Roboto", sans-serif;
-  margin-right: 15px;
+
 }
+
 
 .linktext {
   color: white;
   font-weight: bold;
   font-size: 20px;
   float: right;
+  margin-right: 15px;
+
 }
 
 li{
